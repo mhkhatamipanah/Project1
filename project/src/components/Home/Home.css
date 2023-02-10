@@ -1,0 +1,17 @@
+.container-header {
+  margin: 0 10%;
+}
+.header {
+  display: flex;
+}
+.header-Tab {
+  height: 400px;
+  width: 70%;
+  margin-left: 20px;
+}
+.news {
+  border-radius: 32px;
+  background: #23293a;
+  height: 500px;
+  width: 30%;
+}
