@@ -70,44 +70,13 @@ function Footer() {
           </ul>
         </div>
 
-        <div className=" col-md-3">
-          <h6 className="title-footer title-footer3">رسانه های اجتماعی</h6>
-          <ul className="footer-links socials-icons">
-            <li>
-                <a href="https://instagram.com/m_h_khatamiiii_panah?igshid=ZjA0NjI3M2I=">
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/mhkhatamipanah">
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/MH_khatamipanah?t=FNL49a1fxq3aM-axQyj60w&s=09">
-                   
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/mmd-khatami-06829625a">
-                </a>
-            </li>
-          </ul>
-          <a href="#home">
-          </a>
-        </div>
+
       </div>
      
 
       <hr className="hr-tag"/>
     </div>
-    <div className="containerrr">
-      <div className="row">
-        <div className="col-md-8 col-sm-6 col-xs-12">
-          <p className="copyright-text"> سایت شخصی است. هرگونه کپی برداری پیگرد قانونی دارد. تمامی حقوق محفوظ است.
-            <span>© 2022</span>
-          </p>
-        </div>
-      </div>
-    </div>
+   
 </footer>
   )
 }

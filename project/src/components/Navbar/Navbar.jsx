@@ -24,11 +24,11 @@ function navbar() {
        
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Link className="nav-link" href="#features">صفحه اصلی</Link>
-            <Link className="nav-link" href="#pricing">مادرانه</Link>
-            <Link className="nav-link" href="#pricing">نوزاد</Link>
-            <Link className="nav-link" href="#pricing">کودک</Link>
-            <Link className="nav-link" href="#pricing">نوجوان</Link>
+            <Link className="nav-link " href="#features">صفحه اصلی</Link>
+            <Link className="nav-link " href="#pricing">مادرانه</Link>
+            <Link className="nav-link " href="#pricing">نوزاد</Link>
+            <Link className="nav-link " href="#pricing">کودک</Link>
+            <Link className="nav-link " href="#pricing">نوجوان</Link>
             <NavDropdown title="معلم" id="collasible-nav-dropdown">
               <Link className="dropdown-item" href="#action/3.1">رشد</Link>
               <Link className="dropdown-item" href="#action/3.2">
@@ -40,8 +40,8 @@ function navbar() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Link className="nav-link"  href="#deets">موسسه المهدی</Link>
-            <Link className="nav-link"  href="#memes">شبکه شهاب</Link>
+            <Link className="nav-link "  href="#deets">موسسه المهدی</Link>
+            <Link className="nav-link "  href="#memes">شبکه شهاب</Link>
             <NavDropdown title="چند رسانه ای" id="collasible-nav-dropdown">
               <Link className="dropdown-item" href="#action/3.1">فیلم</Link>
               <Link className="dropdown-item" href="#action/3.2">
@@ -49,7 +49,7 @@ function navbar() {
               </Link>
            
             </NavDropdown>
-            <Link className="nav-link" href="#contact-us">ارتباط با ما</Link>
+            <Link className="nav-link " href="#contact-us">ارتباط با ما</Link>
 
           </Nav>
          
@@ -57,7 +57,7 @@ function navbar() {
         
         <InputGroup className="serach-box">
        
-        <Form.Control placeholder="يبحث ..."
+        <Form.Control placeholder="جست و جو ..."
           aria-label="Example text with button addon"
           aria-describedby="basic-addon1"
         />

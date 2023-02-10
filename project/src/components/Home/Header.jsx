@@ -10,10 +10,12 @@ import image33 from "../../Assets/images/12.jpg";
 
 import React from "react";
 
+
+
 function Header() {
   return (
     <Carousel>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={2000}>
       <picture className="d-block w-100 h-500">
           <img src={image1} alt="download metamask" media="(min-width: 1024px)" />
           <source  srcSet={image11} type="image/img"  />
@@ -23,7 +25,7 @@ function Header() {
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={2000}>
       <picture className="d-block w-100 h-500">
           <img src={image2} alt="download metamask" media="(min-width: 1024px)" />
           <source  srcSet={image22} type="image/img"  />
@@ -33,7 +35,7 @@ function Header() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={2000}>
         <picture className="d-block w-100 h-500">
           <img src={image3} alt="download metamask" media="(min-width: 1024px)" />
           <source  srcSet={image33} type="image/img"  />

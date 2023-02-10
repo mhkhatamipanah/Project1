@@ -1,5 +1,5 @@
 import React from 'react'
-import './Film copy.jsx'
+import './Film.css'
 
 function Film() {
   return (

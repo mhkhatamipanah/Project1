@@ -14,7 +14,7 @@ import image11 from "../../../Assets/images/cover-film/11.jpg";
 import image12 from "../../../Assets/images/cover-film/12.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y,Controller } from 'swiper';
 import "swiper/css";
 
   
@@ -23,8 +23,8 @@ function SwipeableCarousel() {
 
 
   return (
-    <>
-      <Swiper
+ 
+ <Swiper
          modules={[Navigation, Pagination, Scrollbar, A11y]}
          spaceBetween={50}
          slidesPerView={9}
@@ -48,14 +48,7 @@ function SwipeableCarousel() {
      
       </Swiper>
 
-      {/* <img src={} alt="" />
-      <img src={} alt="" />
-      <img src={} alt="" />
-      <img src={} alt="" />
-      <img src={} alt="" />
-      <img src={} alt="" />
-      <img src={} alt="" /> */}
-    </>
+
   );
 }
 

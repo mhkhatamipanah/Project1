@@ -10,7 +10,6 @@ font-family: vazir-regular;
   width: 100%;
 }
 .container {
-  max-width: 1540px !important;
 }
 .form-control {
   flex: none !important;
@@ -43,5 +42,4 @@ font-family: vazir-regular;
 .navbar-nav{
     --bs-nav-link-padding-y: 0rem;
 }
-
 
