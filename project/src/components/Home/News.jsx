@@ -10,7 +10,7 @@ function News() {
         <img src={image} alt="" />
       </div>
       <div className="news-text">
-        <p >اخبار جدید</p>
+        <p className="title-news" >اخبار جدید</p>
         <p aria-hidden="true">
           <Placeholder xs={12} bg="primary" />
         </p>

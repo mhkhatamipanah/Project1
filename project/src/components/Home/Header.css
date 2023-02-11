@@ -3,3 +3,7 @@
     border-radius: 10px;
     background-attachment: fixed;
 }
+.carousel-indicators{
+    flex-direction: row-reverse !important;
+    
+}

@@ -1,8 +1,9 @@
   .container-banner{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 300px;
-    background-color: rgb(29, 42, 54);
+    background-color: #1f263a;
     margin-top: 50px;
   }
   .container-banner p{
@@ -10,4 +11,7 @@
  margin-top: 50px;
  font-family: vazir-bold;
  font-size: 100px;
+  }
+  .image-banner{
+    height: 150px;
   }

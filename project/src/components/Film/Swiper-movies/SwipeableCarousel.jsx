@@ -1,5 +1,5 @@
 import React from "react";
-import "../Swipeable_Carousel/SwipeableCarousel.css";
+import "./SwipeableCarousel.css";
 import image1 from "../../../Assets/images/cover-film/1.jpg";
 import image2 from "../../../Assets/images/cover-film/2.jpg";
 import image3 from "../../../Assets/images/cover-film/3.jpg";
@@ -32,45 +32,43 @@ function SwipeableCarousel() {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image1} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image2} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image3} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image4} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image5} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image6} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image7} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image8} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image9} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image10} alt="" />
       </SwiperSlide>
       
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image11} alt="" />
       </SwiperSlide>
       <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
+        <img className="swiper-img" src={image12} alt="" />
       </SwiperSlide>
-      <SwiperSlide>
-        <img className="swiper-img" src={image23} alt="" />
-      </SwiperSlide>
+     
    
     </Swiper>
   );

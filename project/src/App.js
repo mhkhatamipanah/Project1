@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound";
 import Banner from "./components/Banner/Banner";
+import Film from "./components/Film/Film";
 
 import "./App.css";
 
@@ -22,9 +23,9 @@ export default function MainRouter() {
       {isloading ? <Navbar /> : <Preloader />}
 
       <Routes>
-        <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} exact/>
-        <Route path="/Banner" element={<Home />} />
+        <Route path="/film" element={<Film />} />
+        <Route path="/Banner" element={<Banner />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
