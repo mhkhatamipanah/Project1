@@ -16,8 +16,9 @@
 .form-control {
   flex: none !important;
   justify-content: end;
-  width: 10% !important;
+  width: 50% !important;
   background-color: #ebebeb;
+
 }
 
 #responsive-navbar-nav {
@@ -36,7 +37,7 @@
   > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(
     .form-floating
   ) {
-  width: auto !important;
+  width: 90% !important;
   border-radius: 0 8px 8px 0 !important;
 }
 .input-group {
@@ -75,3 +76,42 @@
     margin-right: 4px;
     vertical-align: 1px;
 }
+.input-group{
+  width: 50% !important;
+  flex-wrap: nowrap;
+}
+.navbar > .container{
+  justify-content: center;
+}
+.login{
+}
+.signUp{
+margin-left: 5px;
+}
+.container-menu{
+  justify-content: center !important;
+}
+.nav-link{
+  margin-left: 20px ;
+  font-size: 18px !important;
+}
+@media only screen and (max-width: 1500px) {
+  .container{
+    max-width: 1200px !important;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .container{
+    max-width: 1150px !important;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .container{
+    max-width: 1000px !important;
+  }
+  .nav-link{
+    font-size: 16px !important;
+  }
+}
+

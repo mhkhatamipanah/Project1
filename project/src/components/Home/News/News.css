@@ -9,12 +9,23 @@
   margin-right: 10px;
   border-radius: 5px;
 }
+.news-img{
+  width: 15%;
+}
+.news-text{
+width: 75%;
+}
+.detail-news{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  font-size: 12px;
+}
 .news-text p{
   margin-top: 5px;
 padding-right: 15px;
 color: white;
 margin-bottom: 0;
-width: 300px;
 font-family:vazir-bold;
 }
 .title-news{

@@ -1,6 +1,6 @@
 import "./SwiperMovies.css";
 import React from "react";
-import SwipeableCarousel2 from "./Swiper-movies2/SwipeableCarousel";
+import SwipeableCarousel2 from "./Swiper-movies copy/SwipeableCarousel";
 import SwipeableCarousel1 from "./Swiper-movies/SwipeableCarousel";
 
 function SwiperMovies() {

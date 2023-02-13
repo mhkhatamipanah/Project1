@@ -1,9 +1,9 @@
 import React from "react";
-import News from "./News";
-import Header from "./Header";
-import Banner from "../Banner/Banner";
-import MainSwiper from "./Swipeable_Carousel/MainSwiper";
 import "../Home/Home.css";
+import Header from "./Header/Header";
+import News from "./News/News";
+import Banner from "./Banner/Banner";
+import Content from "./Content/Content";
 import Footer from "../Footer/Footer";
 
 
@@ -26,7 +26,7 @@ function Home() {
         </div>
       </div>
       <Banner />
-      <MainSwiper />
+      <Content/>
       <Footer/>
       
     </>

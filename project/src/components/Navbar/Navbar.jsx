@@ -19,13 +19,13 @@ function navbar() {
          <Navbar collapseOnSelect expand="lg"  variant="dark" >
       <Container>
         <Navbar.Brand href="#home">Logo</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+       
 
        
-        <Navbar.Collapse id="responsive-navbar-nav">
+        {/* <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Link className="nav-link nav-hover" to='/'>صفحه اصلی</Link>
-            <Link className="nav-link nav-hover" href="#pricing">مادرانه</Link>
+            <Link className="nav-link nav-hover" to='/Motherly'>مادرانه</Link>
             <Link className="nav-link nav-hover" href="#pricing">نوزاد</Link>
             <Link className="nav-link nav-hover" href="#pricing">کودک</Link>
             <Link className="nav-link nav-hover" href="#pricing">نوجوان</Link>
@@ -53,7 +53,7 @@ function navbar() {
 
           </Nav>
          
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
         
         <InputGroup className="serach-box">
        
@@ -65,10 +65,52 @@ function navbar() {
           <FiSearch/>
         </Button>
       </InputGroup>
+      <div className="container-btn-login&signUp">
+        <Button className="signUp" variant="success"> ثبت نام</Button >
+        <Button className="login" variant="outline-secondary"> ورود</Button >
+      </div>
       </Container>
     </Navbar>
 
 
+         <Navbar collapseOnSelect expand="lg"  variant="dark" >
+      <Container className="container-menu">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+           <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Link className="nav-link nav-hover" to='/'>صفحه اصلی</Link>
+            <Link className="nav-link nav-hover" to='/Motherly'>مادرانه</Link>
+            <Link className="nav-link nav-hover" href="#pricing">نوزاد</Link>
+            <Link className="nav-link nav-hover" href="#pricing">کودک</Link>
+            <Link className="nav-link nav-hover" href="#pricing">نوجوان</Link>
+            <NavDropdown title="معلم" id="collasible-nav-dropdown">
+              <Link className="dropdown-item nav-hover" href="#action/3.1">رشد</Link>
+              <Link className="dropdown-item nav-hover" href="#action/3.2">
+                آموزش
+              </Link>
+              <Link className="dropdown-item nav-hover" href="#action/3.3">تربیت</Link>
+              
+             
+            </NavDropdown>
+          </Nav>
+          <Nav>
+            <Link className="nav-link nav-hover"  href="#deets">موسسه المهدی</Link>
+            <Link className="nav-link nav-hover"  href="#memes">شبکه شهاب</Link>
+            <NavDropdown title="چند رسانه ای" id="collasible-nav-dropdown">
+              <Link className="dropdown-item nav-hover" to='film'>فیلم</Link>
+              <Link className="dropdown-item nav-hover" href="#action/3.2">
+               سریال
+              </Link>
+           
+            </NavDropdown>
+            <Link className="nav-link nav-hover" href="#contact-us">ارتباط با ما</Link>
+
+          </Nav>
+         
+        </Navbar.Collapse> 
+        
+      </Container>
+    </Navbar>
     
       {/* <Link to="/home">Home </Link>
 

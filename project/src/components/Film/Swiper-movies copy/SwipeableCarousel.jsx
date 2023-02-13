@@ -27,7 +27,7 @@ function SwipeableCarousel() {
       modules={[Navigation]}
       navigation={true}
       spaceBetween={50}
-      slidesPerView={9}
+      slidesPerView={8}
       
       onSwiper={(swiper) => console.log(swiper)}
     >
