@@ -3,6 +3,7 @@ import React from "react";
 import CardMotherly from "./CardMotherly";
 import Pagation from "./Pagation";
 import Footer from "../Footer/Footer";
+import { Carousel} from './carousel-1/Carousel'
 
 function Motherly() {
   return (
@@ -21,7 +22,7 @@ function Motherly() {
             <Pagation />
           </div>
         </div>
-        <aside className="aside-Mothely"></aside>
+        <aside className="aside-Mothely"><Carousel/></aside>
       </div>
       <Footer />
     </>

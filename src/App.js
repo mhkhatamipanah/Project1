@@ -3,6 +3,7 @@ import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound";
 import Banner from "./components/Home/Banner/Banner";
 import Film from "./components/Film/Film";
+import SignUp from "./components/Registration/SignUp/SignUp";
 
 import "./App.css";
 
@@ -32,6 +33,7 @@ export default function MainRouter() {
         <Route path="/Motherly" element={<Motherly />} />
         <Route path="/Baby" element={<Baby />} />
         <Route path="/Login" element={<Login />} />
+        <Route path="/SignUp" element={<SignUp />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>

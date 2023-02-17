@@ -24,7 +24,7 @@ function Login() {
                 </span>
 
                 <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                    <input class="input100" type="text" name="email" placeholder="Email"/>
+                    <input class="input100" type="text" name="email" placeholder="ایمیل"/>
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -32,7 +32,7 @@ function Login() {
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate = "Password is required">
-                    <input class="input100" type="password" name="pass" placeholder="Password"/>
+                    <input class="input100" type="password" name="pass" placeholder="رمز عبور"/>
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
                         <i class="fa fa-lock" aria-hidden="true"></i>

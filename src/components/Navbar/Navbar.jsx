@@ -9,6 +9,12 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { FiSearch } from "react-icons/fi/index.esm";
+import {FaTelegramPlane} from "react-icons/fa/index.esm"
+import {FaInstagram} from "react-icons/fa/index.esm"
+import {FaFacebook} from "react-icons/fa/index.esm"
+import {FaYoutube} from "react-icons/fa/index.esm"
+import {FaWhatsapp} from "react-icons/fa/index.esm"
+
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -66,7 +72,7 @@ function navbar() {
         </Button>
       </InputGroup>
       <div className="container-btn-login&signUp">
-        <Link className="signUp" variant="success"> ثبت نام</Link >
+        <Link to='/SignUp' className="signUp" variant="success"> ثبت نام</Link >
         <Link to='/Login' className="login" variant="outline-secondary"> ورود</Link >
       </div>
       </Container>
@@ -110,7 +116,15 @@ function navbar() {
           </Nav>
          
         </Navbar.Collapse> 
-        
+        <div className="container-icon-navbar">
+          <FaWhatsapp className='icon-navbar'/>
+          <FaFacebook className='icon-navbar'/>
+          <FaYoutube className='icon-navbar'/>
+          <FaInstagram className='icon-navbar'/>
+          <FaTelegramPlane className='icon-navbar'/>
+          
+          
+        </div>
       </Container>
     </Navbar>
     
